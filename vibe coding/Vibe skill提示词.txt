@@ -1,0 +1,32 @@
+先安装
+# 安装 Superpowers
+npx skills add obra/superpowers
+
+# 安装 Planning with Files
+npx skills add othmanadi/planning-with-files
+
+# 安装 Frontend Design（Anthropic 官方）
+npx skills add anthropics/skills frontend-design
+
+
+1. 先用 Planning with Files 规划项目
+/planning-with-files 
+帮我规划一个极简ToDo清单网页的开发流程，要求：
+1. 按文件/模块划分开发任务；
+2. 输出完整的项目目录结构；
+3. 标注每个核心文件的功能和开发优先级。
+
+2. 再用 Superpowers 生成核心代码
+/superpowers
+按照刚才的ToDo清单项目规划，完成以下开发：
+1. 生成 React 版本的核心组件（TodoList.js、TodoItem.js）；
+2. 实现本地存储（localStorage）逻辑；
+3. 补充注释和异常处理；
+4. 兼容 PC/移动端。
+
+3. 最后用 Frontend Design 优化界面
+/frontend-design
+优化刚才生成的ToDoList组件样式，要求：
+1. 风格：极简风（无衬线字体、浅灰底色、圆角按钮）；
+2. 交互：hover 动效、完成任务的划掉动画；
+3. 输出优化后的 CSS/Tailwind 代码。
